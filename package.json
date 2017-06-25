@@ -1,27 +1,18 @@
 {
-  "name": "y",
-  "version": "1.0.0",
-  "description": "Home Listing App",
-  "main": "index.js",
+  "name": "lystez",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ryansha30/lystezApp.git"
-  },
-  "keywords": [
-    "Home",
-    "Listing",
-    "App",
-    "Real",
-    "Estate",
-    "Agent"
-  ],
-  "author": "Shaun RYan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ryansha30/lystezApp/issues"
-  },
-  "homepage": "https://github.com/ryansha30/lystezApp#readme"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
